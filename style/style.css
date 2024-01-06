@@ -25,7 +25,7 @@ header > .top_header > nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 1140px;
+  width: 81%;
   margin: auto;
 }
 header > .top_header > nav > h1 {
@@ -75,7 +75,7 @@ header > .top_header > nav > ul > li > button:hover {
 /* Bottom Header design ============= */
 
 header > .btm_header {
-  width: 1140px;
+  width: 81%;
   margin: auto;
   display: flex;
   justify-content: space-between;
@@ -168,7 +168,7 @@ header > .developer_img {
 /* Start main section style======= */
 
 main {
-  width: 1140px;
+  width: 81%;
   margin: auto;
 }
 main > section > h2 {
@@ -317,7 +317,7 @@ footer {
   width: 100%;
 }
 footer > div {
-  width: 1140px;
+  width: 81%;
   margin: auto;
   display: flex;
   gap: 117px;
@@ -354,6 +354,7 @@ footer > div > .right > form > textarea {
   border-radius: 5px;
   border: none;
   background-color: white;
+  outline: none;
 }
 
 footer > div > .right > form > input[type='submit'] {
