@@ -113,7 +113,7 @@ header > .btm_header > div > .btn_contact {
   width: 160px;
   height: 64px;
   border: 2px solid var(--tometo);
-  background-color: white;
+  background-color: #ffffff;
   cursor: pointer;
   border-radius: 5px;
 
