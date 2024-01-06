@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+:root {
+  --dark: #181818;
+  --liteDark: #474747;
+  --veryLiteDark: #757575;
+  --tometo: #fd6e0a;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+header {
+  height: 100vh;
+  width: 100%;
+  background: #fff8f3;
+  position: relative;
+  padding-top: 50px;
+}
+
+header > .top_header > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1140px;
+  margin: auto;
+}
+header > .top_header > nav > h1 {
+  color: var(--dark);
+  font-size: 45px;
+  font-weight: 800;
+}
+header > .top_header > nav > h1 > span {
+  color: var(--tometo);
+}
+header > .top_header > nav > ul {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+header > .top_header > nav > ul > li {
+  list-style: none;
+  font-weight: 400;
+  font-size: 20px;
+}
+header > .top_header > nav > ul > li > a {
+  text-decoration: none;
+  color: var(--liteDark);
+}
+
+header > .top_header > nav > ul > li > button {
+  font-size: 20px;
+  font-family: Open Sans;
+  padding: 15px 20px;
+  background-color: var(--tometo);
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+/* Bottom Header design ============= */
+
+header > .btm_header {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85vh;
+}
+header > .btm_header > div {
+  width: 50%;
+}
+header > .btm_header > div > h3 {
+  color: var(--liteDark);
+  font-size: 45px;
+  font-weight: 600;
+}
+header > .btm_header > div > h1 {
+  color: var(--dark);
+  font-size: 85px;
+  font-weight: 700;
+}
+header > .btm_header > div > p {
+  color: var(--veryLiteDark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  padding-bottom: 30px;
+}
+
+header > .btm_header > div > .btn_cv {
+  width: 200px;
+  height: 64px;
+  border-radius: 5px;
+  background: var(--tometo);
+  border: none;
+  margin-right: 30px;
+  cursor: pointer;
+  color: white;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+header > .btm_header > div > .btn_contact {
+  width: 160px;
+  height: 64px;
+  border: 2px solid var(--tometo);
+  background-color: white;
+  cursor: pointer;
+  border-radius: 5px;
+
+  color: var(--tometo);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Bottom header Image Part ====== */
+header > .btm_header > .img > img {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+header > .btm_header > .img > .bg_img {
+  width: 750px;
+}
+header > .btm_header > .img > .p_img {
+  width: 550px;
+}
+
+header > .developer_img {
+  position: absolute;
+  bottom: 25px;
+  left: 20px;
+  width: 95px;
+}
