@@ -142,3 +142,92 @@ header > .developer_img {
   left: 20px;
   width: 95px;
 }
+
+/* Start main section style======= */
+
+main {
+  width: 1140px;
+  margin: auto;
+}
+main > section > h2 {
+  color: var(--dark);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+/* start section one style======= */
+main > .section_one {
+  padding: 131px 150px;
+  margin: 130px 0;
+  border-radius: 10px;
+  background: #fff8f3;
+  text-align: center;
+}
+main > .section_one > p {
+  color: var(--veryLiteDark);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+  padding: 30px 0;
+}
+
+main > .section_one > .about_bio {
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  font-size: 20px;
+}
+main > .section_one > .about_bio > div > p {
+  color: var(--veryLiteDark);
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px; /* 150% */
+}
+main > .section_one > .about_bio > div > h4 {
+  font-weight: 700;
+  color: var(--liteDark);
+}
+
+/* Start section two design ======== */
+
+main > .section_two > .section_two_description {
+  color: var(--veryLiteDark);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  width: 909px;
+  margin: auto;
+  padding-bottom: 50px;
+}
+main > .section_two > .section_two_skill {
+  display: flex;
+  gap: 24px;
+}
+main > .section_two > .section_two_skill > div {
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  width: 267px;
+  height: 377px;
+  padding: 30px;
+}
+main > .section_two > .section_two_skill > div > img {
+  width: 44px;
+  height: 44px;
+  margin-bottom: 20px;
+}
+main > .section_two > .section_two_skill > div > h4 {
+  color: var(--dark);
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+}
+main > .section_two > .section_two_skill > div > p {
+  color: var(--veryLiteDark);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
