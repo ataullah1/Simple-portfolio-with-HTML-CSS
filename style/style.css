@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap');
 :root {
   --dark: #181818;
   --liteDark: #474747;
@@ -227,6 +227,85 @@ main > .section_two > .section_two_skill > div > h4 {
 main > .section_two > .section_two_skill > div > p {
   color: var(--veryLiteDark);
   font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+main > .section_three > div {
+  display: flex;
+  gap: 71px;
+  padding-top: 113px;
+}
+main > .section_three > h2 {
+  padding-top: 130px;
+}
+
+main > .section_three > div > div hr {
+  margin: 30px 0;
+  background: #d1d1d1;
+}
+main > .section_three > div > div > h3 {
+  color: var(--liteDark);
+  font-family: Open Sans;
+  font-size: 30px;
+  font-weight: 700;
+}
+main > .section_three > div > div > div > h4 {
+  color: var(--liteDark);
+  font-size: 25px;
+  font-weight: 700;
+}
+main > .section_three > div > div > div > .s_three_year {
+  color: var(--veryLiteDark);
+  font-size: 20px;
+  font-weight: 600;
+}
+main > .section_three > div > div > div > .s_Three_describe {
+  color: var(--veryLiteDark);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+main > .section_three > button {
+  width: 200px;
+  height: 64px;
+  background-color: var(--tometo);
+
+  color: white;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  display: block;
+  margin: 50px auto 113px;
+}
+
+/* Footer Section Styling ===========*/
+
+footer {
+  background: #fff8f3;
+  width: 100%;
+}
+footer > div {
+  width: 1140px;
+  margin: auto;
+  display: flex;
+  gap: 117px;
+  padding: 130px 0;
+}
+footer > div > div {
+  width: 50%;
+}
+footer > div > div h3 {
+  color: var(--dark);
+  font-size: 35px;
+  font-weight: 700;
+}
+
+footer > div > div p {
+  color: var(--liteDark);
   font-size: 16px;
   font-weight: 400;
   line-height: 28px; /* 175% */
