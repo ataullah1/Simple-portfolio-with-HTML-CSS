@@ -388,3 +388,198 @@ footer > small > span {
   color: var(--tometo);
   font-weight: bolder;
 }
+
+/* Responsive Media ================== */
+
+@media screen and (width: 320px) {
+  header {
+    height: auto;
+    padding-top: 10px;
+  }
+
+  header > .top_header > nav {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    gap: 10px;
+  }
+  header > .top_header > nav > h1 {
+    font-size: 45px;
+  }
+
+  header > .top_header > nav > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+  }
+  header > .top_header > nav > ul > li {
+    font-size: 18px;
+    width: 100%;
+    text-align: center;
+  }
+
+  header > .top_header > nav > ul > li > button {
+    width: 90%;
+    height: 50px;
+    font-size: 18px;
+  }
+
+  /* Bottom Header design ============= */
+
+  header > .btm_header {
+    width: 95%;
+    flex-direction: column-reverse;
+    height: auto;
+    gap: 20px;
+  }
+  header > .btm_header > div {
+    text-align: center;
+    width: 100%;
+  }
+  header > .btm_header > div > h3 {
+    font-size: 35px;
+  }
+  header > .btm_header > div > h1 {
+    font-size: 70px;
+  }
+  header > .btm_header > div > p {
+    font-size: 15px;
+  }
+
+  header > .btm_header > div > .btn_cv,
+  header > .btm_header > div > .btn_contact {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto 10px;
+    font-size: 18px;
+  }
+
+  /* Bottom header Image Part ====== */
+  header > .btm_header > .img {
+    position: relative;
+    height: 350px;
+    width: 100%;
+  }
+  header > .btm_header > .img > img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  header > .btm_header > .img > .p_img,
+  header > .btm_header > .img > .bg_img {
+    width: 100%;
+  }
+  header > .developer_img {
+    display: none;
+  }
+
+  /* main section Responsive ============= */
+
+  main {
+    width: 95%;
+  }
+  main > section > h2 {
+    text-align: center;
+    font-size: 30px;
+  }
+
+  /* start section one style======= */
+  main > .section_one {
+    padding: 20px 10px;
+    margin: 50px 0;
+  }
+  main > .section_one > p {
+    font-size: 16px;
+    padding: 15px 0;
+  }
+
+  main > .section_one > .about_bio {
+    flex-direction: column;
+    gap: 10px;
+    font-size: 15px;
+  }
+
+  /* Start section two design ======== */
+
+  main > .section_two > .section_two_description {
+    font-size: 16px;
+    width: 100%;
+    padding-bottom: 20px;
+  }
+  main > .section_two > .section_two_skill {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+  }
+
+  main > .section_two > .section_two_skill > div > p {
+    text-align: justify;
+  }
+
+  main > .section_three > h2 {
+    padding-top: 50px;
+  }
+  main > .section_three > div {
+    flex-direction: column;
+    gap: 0;
+    padding-top: 20px;
+  }
+  main > .section_three > div > div > div > h3 {
+    padding: 15px 0;
+    text-decoration: underline;
+  }
+  main > .section_three > div > div hr {
+    margin: 15px 0;
+  }
+
+  main > .section_three > div > div > div > h4 {
+    font-size: 22px;
+  }
+  main > .section_three > div > div > div > .s_three_year {
+    font-size: 18px;
+  }
+
+  main > .section_three > button {
+    width: 90%;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 18px;
+    margin: 30px auto;
+  }
+
+  /* Footer section responsive =========  */
+
+  footer {
+    width: 100%;
+  }
+  footer > div {
+    width: 95%;
+    flex-direction: column;
+    gap: 25px;
+    padding: 30px 0;
+  }
+  footer > div > div {
+    width: 100%;
+    text-align: center;
+  }
+  footer > div > div > h3 {
+    font-size: 30px;
+  }
+
+  footer > div > .right > form > input[type='text'],
+  footer > div > .right > form > input[type='email'],
+  footer > div > .right > form > textarea {
+    width: 100%;
+    padding: 18px 10px;
+    margin-bottom: 15px;
+  }
+
+  footer > div > .right > form > input[type='submit'] {
+    width: 100%;
+    height: 50px;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+}
